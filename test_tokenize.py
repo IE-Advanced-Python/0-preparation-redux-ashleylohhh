@@ -14,3 +14,18 @@ def test_tokenize_returns_expected_output():
   output2 = tokenize(sentence2)
 
   assert output2 == expected_output2
+
+def test_tokenize_lower_returns_expected_output():
+  sentence1= "This is a sentence"
+  expected_output1 = ["this", "is", "a", "sentence"]
+
+  output1 = tokenize(sentence1, lower=True)
+
+  assert output1 == expected_output1
+
+  sentence2 = "Another short sentence"
+  expected_output2 = ["another", "short", "sentence"]
+
+  output2 = tokenize(sentence2, lower=True)
+
+  assert output2 == expected_output2
