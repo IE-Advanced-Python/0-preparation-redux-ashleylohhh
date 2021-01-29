@@ -1,3 +1,6 @@
+import sys
+sys.path.append('src')
+#sys.path.insert(0, '../src/')
 from ie_nlp_utils import tokenize
 
 def test_tokenize_returns_expected_output():
