@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "ie_nlp_utils"
+author = "Qing Loh"
+author-email = "ashleyloh@student.ie.edu"
+description-file = "README.md"
+
