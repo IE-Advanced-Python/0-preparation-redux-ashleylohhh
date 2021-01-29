@@ -1,4 +1,3 @@
-def tokenize(sentence, lower=False):
-  if lower:
-    return sentence.lower().split()
-  return sentence.split()
+from .removal import stopword_removal, punctuation_removal
+
+from .tokenize import tokenize
